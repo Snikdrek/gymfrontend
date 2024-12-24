@@ -12,7 +12,10 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.carousel-inner img {
+  max-height: 500px; /* Adjust this to your preferred height */
+  object-fit: cover; /* Ensures the image covers the height without distorting */
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
